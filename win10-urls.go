@@ -56,7 +56,7 @@ func main() {
 		os.Exit(1)
 	}
 
-	parseHTML(body)
+	err = parseHTML(body)
 	if err != nil {
 		os.Exit(1)
 	}
